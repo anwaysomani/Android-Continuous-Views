@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Recurring Elements</string>
+
+    <!-- This is the place from where the actual data is being fetched into  the list view.
+    Check out the configuration by altering value here -->
+    <string-array name="bca_students">
+        <item>Alisha Pattanaik</item>
+        <item>Avinash Ponnaganti</item>
+        <item>Deept Barse</item>
+        <item>Mansi Sawant</item>
+        <item>Naveen S</item>
+        <item>Nikhil Jha</item>
+        <item>Noel Bommu</item>
+        <item>Pradnya Kamble</item>
+        <item>Sarvesh Angadi</item>
+        <item>Satyam Raj</item>
+        <item>Shweta Shinde</item>
+        <item>Saurabh Kondel</item>
+        <item>Sumedh Teltumbhade</item>
+        <item>Vivek Jadhav</item>
+    </string-array>
 </resources>
