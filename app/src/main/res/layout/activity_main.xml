@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Relative layout is declared on purpose
+to make the feel of the environment of the
+list view responsive to varied sized gadgets -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,6 +11,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- This is the title, to show that list view
+    can be declared randomly to view, and that a scroll
+    view be implemented below it so that while scrolling,
+    title does not move -->
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
@@ -17,12 +25,16 @@
         android:textStyle="bold"
         />
 
+    <!-- Scroll view is necessary as there needs to be
+    certainity that list view scroll even below the screen -->
     <ScrollView
         android:layout_below="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="10dp">
 
+        <!-- It is important to give an id to list view
+        to identify in the java class -->
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
