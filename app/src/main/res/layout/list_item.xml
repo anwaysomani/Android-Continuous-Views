@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the location from where each view for list view
+ is being viewed to fetch data from string.xml and put into
+  list view in the main activity -->
 <TextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="wrap_content"
